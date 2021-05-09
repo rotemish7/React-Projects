@@ -1,0 +1,13 @@
+
+
+.weather {
+    width: 70%;
+    margin-right: 80px;
+}
+
+.home-page {
+    /* background-image: linear-gradient(#2596be,#aadcee); */
+    display: flex;
+    justify-content: flex-end;
+    height: calc(100% - 140px);
+}

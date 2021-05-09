@@ -1,0 +1,35 @@
+
+
+.weather-component {
+    display: flex;
+    flex-flow: column nowrap;
+    flex:1;
+    background-color: #FFFAFA;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 0 8px 0 rgba(0, 0, 0, 0.05);
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+ .title {
+     display: flex;
+     justify-content: flex-end;
+     padding-right: 20px;
+
+ }
+
+ .title h1 {
+     white-space: nowrap;
+     margin-bottom: 20px;
+ }
+
+ .content {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     align-items: center;
+     height: 100%;
+     padding: 0 10px;
+
+
+ }

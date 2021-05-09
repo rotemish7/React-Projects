@@ -1,0 +1,12 @@
+
+
+.weather-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+.weather-item div {
+    margin-bottom: 10px;
+}
