@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Home.css'
 import WeatherCast from './WeatherCast.js'
-//import WeatherItem from './WeatherItem'
-
 
 function Home() {
 

@@ -25,10 +25,9 @@ function Header() {
   return (
     <div className="header">
       <div className="nav-bar">
-        <div className="logo-and-temp">
+        <div className="nav-bar__icons">
           <div className="weather-logo">
             <img
-              className="temperature"
               src={logo}
               alt="logo"
             ></img>
@@ -37,13 +36,13 @@ function Header() {
             onClick={langClick}
             type="button"
             value={lang}
-            id="language"
+            className="language"
           ></input>
           <input
             onClick={tempClick}
             type="button"
             value={temp}
-            id="temperature"
+            className="temperature"
           ></input>
         </div>
         <div className="search-bar">
