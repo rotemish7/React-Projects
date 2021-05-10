@@ -1,10 +1,17 @@
 
 
 .weather-item {
+    position: relative;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    z-index : 1;
+    padding-left: 70px;
+    border-left: 1px solid #A0A0A0;
+}
 
+.weather-item:first-child {
+    border: 1px solid transparent;
 }
 
 .weather-item div {

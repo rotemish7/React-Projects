@@ -5,9 +5,11 @@ import { useState } from 'react';
 function WeatherCast({option}) {
 
   const forecasts = [
-        {id: 1, time:'בוקר', minTemp:'20', maxTemp:'30', tempImage:'', precipitation:'' },
-        {id: 2, time:'11:00', minTemp:'21', maxTemp:'29', tempImage:'', precipitation:'' },
-        {id: 3, time:'היום', minTemp:'20', maxTemp:'30', tempImage:'', precipitation:'' },
+        {id: 1, time:'בוקר', minTemp:'20', maxTemp:'30', tempImage:'icon', precipitation:'0%' },
+        {id: 2, time:'11:00', minTemp:'21', maxTemp:'29', tempImage:'icon', precipitation:'0%' },
+        {id: 3, time:'היום', minTemp:'20', maxTemp:'30', tempImage:'icon', precipitation:'0%' },
+        {id: 4, time:'היום', minTemp:'20', maxTemp:'30', tempImage:'icon', precipitation:'0%' },
+        {id: 5, time:'היום', minTemp:'20', maxTemp:'30', tempImage:'icon', precipitation:'0%' }
   ]
 
     return (

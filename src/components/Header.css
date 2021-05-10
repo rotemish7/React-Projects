@@ -35,8 +35,7 @@ body {
 */
 .header {
     color: white;
-    background-color: #2596be;
-    height: 140px;
+    height: 170px;
     display: flex;
     flex-flow: column nowrap;
 
@@ -44,6 +43,7 @@ body {
 
 .nav-bar {
     display: inline-flex;
+    background-color: #2596be;
     padding: 10px 10px;
     flex-flow: row;
     width: 100%;
@@ -59,6 +59,7 @@ body {
     align-items: center;
 }
 
+#language,
 #temperature {
     background-color: transparent;
     border: transparent;
@@ -68,10 +69,12 @@ body {
     cursor: pointer;
 }
 
+#language:hover,
 #temperature:hover {
     opacity: 0.5;
     transition: opacity 0.3s linear;
 }
+
 .weather-logo img {
     width: 40px;
     height: 40px;
@@ -82,8 +85,8 @@ body {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    left: 40%;
+    position: relative;
+    right: 45%;
 }
 
 .search-bar form {
@@ -101,11 +104,12 @@ body {
     border: none;
     outline: none;
     width: 300px;
+    height: 38px;
     /* max-width: 32ch; */
 }
 
 ::placeholder {
-    color: black;
+    color: #505050;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 
@@ -115,7 +119,7 @@ body {
     position: absolute;
     margin-right: 4px;
     margin-top: 2px;
-    top: 5px;
+    top: 9px;
     right: -95px;
 }
 
@@ -152,7 +156,7 @@ body {
 } 
 
 .favourites {
-    height: 30px;
+    height: 45px;
     background-color: #95d3ea;
 }
 

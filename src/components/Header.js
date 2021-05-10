@@ -7,11 +7,19 @@ import search from '../assets/search-icon.png'
 
 function Header() {
 
+ //show temperatures in the correct value
   const[temp,setTemp] = useState('°C');
   const tempClick = () => {
     if (temp === "°C") setTemp('°F');
     else  setTemp('°C');
-    //show temperatures in the correct value
+  }
+
+//swaping between english and hebrew
+    const[lang,setLang] = useState('IL');
+    const langClick = () => {
+      if (lang === "IL") setLang('EN');
+      else  setLang('IL');
+
   }
 
   return (
@@ -25,6 +33,12 @@ function Header() {
               alt="logo"
             ></img>
           </div>
+          <input
+            onClick={langClick}
+            type="button"
+            value={lang}
+            id="language"
+          ></input>
           <input
             onClick={tempClick}
             type="button"
