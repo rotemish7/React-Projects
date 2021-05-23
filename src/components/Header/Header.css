@@ -7,12 +7,12 @@
 
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
     margin:0;
     box-sizing: border-box;
     --header-height: 80px;
 }
-
 
 html,
 body {
@@ -70,14 +70,18 @@ body {
     background-color: transparent;
     border: transparent;
     color: white;
-    margin-left: 10px;
+    margin-left: 8px;
     font-size: 22px;
     cursor: pointer;
 }
 
+.temperature {
+    width: 30px;
+}
+
 .language {
     width: 44px;
-    border-right: 1px solid white;
+    margin-right: 3px;
 }
 
 .language:hover,
@@ -89,6 +93,12 @@ body {
 .weather-logo img {
     width: 40px;
     height: 40px;
+}
+
+.seperater {
+    height: 30px;
+    width: 1px;
+    border-left: 1px solid white;
 }
 
 
@@ -106,7 +116,7 @@ body {
 
 .search-content {
     width: 300px;
-    margin-right: 140px;
+    margin-right: 5%;
 }
 
 .search-bar form {

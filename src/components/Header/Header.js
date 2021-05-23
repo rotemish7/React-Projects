@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./Header.css";
 
 
-import logo from '../assets/logo.png'
-import search from '../assets/search-icon.png'
+import logo from '../../assets/logo.png'
+import search from '../../assets/search-icon.png'
 
 function Header() {
 
@@ -38,6 +38,7 @@ function Header() {
             value={lang}
             className="language"
           ></input>
+          <div className="seperater"></div>
           <input
             onClick={tempClick}
             type="button"

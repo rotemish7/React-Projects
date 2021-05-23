@@ -1,9 +1,11 @@
 import './App.css';
-import Header from './components/Header.js'
-import Home from './components/Home.js'
-import Footer from './components/Footer.js'
+import Header from './components/Header/Header'
+import Home from './components/ViewPages/Home'
+import Footer from './components/Footer/Footer'
 
 function App() {
+
+
   return (
       <>
         <Header></Header>
